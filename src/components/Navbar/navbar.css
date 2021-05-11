@@ -1,0 +1,37 @@
+/* .nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+.logo{
+margin: 1.2rem;
+}
+.ml{
+  margin: 0 1.2rem;
+  margin-left: 50%;
+}
+@media only screen and (max-width: 768px){
+.ml{  margin-left:35%;}
+}
+@media only screen and (max-width: 425px){
+ .ml{ margin-left:0;}
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 1rem .6rem;
+  }
+  .bell{
+    color:darkgray;
+  }
+  .personN{
+    color:darkgray;
+  }
+  .landing{
+    width:100% ;
+    height:25rem ;
+    object-fit: cover;
+  }

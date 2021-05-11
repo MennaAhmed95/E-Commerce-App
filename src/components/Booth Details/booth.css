@@ -1,0 +1,42 @@
+.fristSec{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 695px){
+    .fristSec{ flex-direction: column;}
+   }
+   
+.av {
+    vertical-align: middle;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-top:-18% ;
+  }
+  @media only screen and (max-width: 695px){
+    .av{ margin-left:0;}
+   }
+   
+  .boothName{
+      display: flex;
+  }
+  .name{
+      margin:0 1rem;
+  }
+  .icons{
+      margin: 0.5rem;
+    }
+    .fass {color:darkgray;
+    margin-left: 1rem;}
+
+    .desc{
+        margin-left: 1rem;
+    }
+    .booth{
+        display: flex;
+        margin: 1%;
+    }
+    .categories{
+        margin: 2rem;
+    }

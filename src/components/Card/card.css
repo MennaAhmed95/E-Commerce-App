@@ -1,0 +1,56 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+    width: 18%;
+    align-items: center;
+    margin: 4%;
+}
+@media only screen and (max-width: 768px){
+    .card{ width: 30%;}
+   }
+   @media only screen and (max-width: 600px){
+    .card{ width: 80%;}
+   }
+
+.ava {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 30%;
+    align-items: center;
+}
+.selectSize{
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    border:1px solid gainsboro;
+    background-color: gainsboro;
+    text-align: center;
+    /* margin-left: .4rem; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.price{
+    color:#78D25B;
+    margin-left: 60%;
+    font-weight: 600;
+}
+.btnCard{
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid #F8B334;
+    border-radius: 15rem;
+    color: #F8B334;
+    margin: 5% 0%;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
